@@ -1,0 +1,21 @@
+# Snow-Accident Dataset configuration for Ultralytics YOLO
+# Place this file in the dataset root directory.
+
+path: .
+
+train: images/train
+val: images/val
+
+# Default test subset
+test: images/test_heavy
+
+# Additional named subsets for documentation and custom scripts
+test_light: images/test_light
+test_medium: images/test_medium
+test_heavy: images/test_heavy
+test_normal: images/test-normal
+
+nc: 1
+
+names:
+  0: accident-related_object

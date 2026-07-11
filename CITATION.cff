@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use the Snow-Accident Dataset, please cite this dataset and the associated paper."
+title: "Snow-Accident Dataset: Accident-Related Object Detection under Adverse Ice-and-Snow Conditions"
+type: dataset
+version: 1.0.0
+date-released: 2026-07-11
+
+authors:
+  - family-names: "Chen"
+    given-names: "Guanyu"
+    affiliation: "Northeast Forestry University"
+
+abstract: >
+  Snow-Accident is a one-class object detection dataset for evaluating
+  traffic accident perception under adverse ice-and-snow conditions.
+  It provides YOLO-format annotations and predefined training,
+  validation, light-degradation, moderate-degradation, heavy-degradation,
+  and normal-weather test subsets.
+
+keywords:
+  - traffic accident detection
+  - object detection
+  - adverse weather
+  - ice-and-snow conditions
+  - intelligent transportation
+  - YOLO
+  - computer vision
+  - visual robustness
+
+license: "CC-BY-NC-4.0"
+repository-code: "https://github.com/xxdddv/Snow-Accident-Dataset"
+url: "https://github.com/xxdddv/Snow-Accident-Dataset"
+
+contact:
+  - name: "Guanyu Chen"
+    email: "2265381150@qq.com"
+    affiliation: "Northeast Forestry University"
+
+preferred-citation:
+  type: dataset
+  title: "Snow-Accident Dataset: Accident-Related Object Detection under Adverse Ice-and-Snow Conditions"
+  version: 1.0.0
+  year: 2026
+  authors:
+    - family-names: "Chen"
+      given-names: "Guanyu"
+      affiliation: "Northeast Forestry University"
+  publisher: "GitHub"
+  url: "https://github.com/xxdddv/Snow-Accident-Dataset"
