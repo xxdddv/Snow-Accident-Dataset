@@ -189,3 +189,15 @@ Please cite the dataset and the associated paper when using this work.
 **Guanyu Chen**  
 Northeast Forestry University  
 Email: 2265381150@qq.com
+
+<!-- real-snow-146-supplement-v2 -->
+## Real-snow accident supplement / 真实雪天事故补充数据
+
+Additional frozen real-snow material: **146 native images, 80 train / 14 development / 52 test**, with one accident-region class and 26 test source groups. Download the images, annotations, frozen model weights, complete results and reproduction settings from the [real-snow supplement release](https://github.com/xxdddv/Snow-Accident-Dataset/releases/tag/real-snow-146-v2).
+
+| 52-image evaluation | AP50 (%) | AP50:95 (%) |
+|---|---:|---:|
+| Cryo-YOLO | 70.315 | 38.508 |
+| YOLOv8n | 59.292 | 31.205 |
+
+This is a small **adaptation-after-training, previously observed/expanded evaluation**, not 52 new independent blind cases. The added 6-image subgroup favors YOLOv8n; full subgroup outcomes, source attribution, third-party licensing and limitations are included in the [supplement documentation](supplements/real-snow-146/README.md). Original controlled-weather dataset files and releases are unchanged.
